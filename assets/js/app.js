@@ -12,5 +12,6 @@ botonIngresar.addEventListener("click", ()=>{
     } else{
         validacionFinal.innerHTML = "Password Incorrecto"
         validacionFinal.style.color = "red";
+        setTimeout(function(){ location. reload() }, 2000);
     }
 })
